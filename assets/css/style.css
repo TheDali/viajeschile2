@@ -8,8 +8,12 @@ body {
     background-color: black;
     color: white;
 }
-.navbar {
+/* .navbar {
    background-color: purple; 
+} */
+
+.purple {
+    background-color: purple; 
 }
 
 .navbar-brand {
