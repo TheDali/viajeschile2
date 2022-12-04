@@ -1,0 +1,13 @@
+/* font-family: 'Libre Baskerville', serif;
+
+font-family: 'Lobster', cursive; */
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+.navbar {
+   background-color: purple; 
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+}
