@@ -5,6 +5,8 @@ body {
     background-color: black;
     color: white;
 }
+
+
 html{
     scroll-behavior: smooth;
     scroll-padding: 90px;
