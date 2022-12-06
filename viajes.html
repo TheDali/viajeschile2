@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top purple">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img width="40px" src="assets/img/viajes.svg" alt="icono">
@@ -36,10 +36,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#QuienesSomos">Quienes somos</a>
+                        <a class="nav-link" href="#nosotros">Quienes somos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#destacados">Destacados</a>
@@ -78,7 +78,7 @@
         </div>
     </header>
 
-    <section id="nosotros" class="">
+    <section id="nosotros" class="d-none d-sm-block">
         <div class="container">
             <div class="ms-auto col-12">
                 <h3 class="fw-bold py-2 my-3 text-center">
@@ -91,27 +91,37 @@
                     <div class="purple p-2 text-center">
                         <i class="fa-solid fa-plane-departure fa-xl"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti aspernatur sunt
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti aspernatur sunt
+                        temporibus cumque, deleniti tempora error voluptas itaque. Rerum doloribus cupiditate officiis
+                        inventore
+                        quibusdam explicabo maiores, exercitationem obcaecati ratione vero.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti aspernatur sunt
                         temporibus cumque, deleniti tempora error voluptas itaque. Rerum doloribus cupiditate officiis
                         inventore
                         quibusdam explicabo maiores, exercitationem obcaecati ratione vero.
                     </p>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="purple p-2 text-center">
-                        <i class="fa-solid fa-mountain fa-xl"></i>
-                    </div>
+                <div class="col-12 col-md-4 my-3">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti aspernatur sunt
+                        temporibus cumque, deleniti tempora error voluptas itaque. Rerum doloribus cupiditate officiis
+                        inventore
+                        quibusdam explicabo maiores, exercitationem obcaecati ratione vero. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti aspernatur sunt
                         temporibus cumque, deleniti tempora error voluptas itaque. Rerum doloribus cupiditate officiis
                         inventore
                         quibusdam explicabo maiores, exercitationem obcaecati ratione vero.
                     </p>
+                    <div class="purple p-2 text-center">
+                        <i class="fa-solid fa-mountain fa-xl"></i>
+                    </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="purple p-2 text-center">
                         <i class="fa-solid fa-route fa-xl"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti aspernatur sunt
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti aspernatur sunt
+                        temporibus cumque, deleniti tempora error voluptas itaque. Rerum doloribus cupiditate officiis
+                        inventore
+                        quibusdam explicabo maiores, exercitationem obcaecati ratione vero. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti aspernatur sunt
                         temporibus cumque, deleniti tempora error voluptas itaque. Rerum doloribus cupiditate officiis
                         inventore
                         quibusdam explicabo maiores, exercitationem obcaecati ratione vero.
@@ -204,25 +214,63 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="col-auto">
-                <button type="submit" class="btn purple text-white mb-3">Enviar</button>
+                <button id=enviarCorreo type="submit" class="btn purple text-white mb-3" data-bs-toggle="tooltip"
+                    data-bs-placement="bottom" title="Presiona para enviar correo">Enviar
+                </button>
             </div>
         </div>
     </section>
-
-    <footer class="purple text-center align-middle">
-        <div class="row">
-            <div class="col-12 col-md-6 p-5">
-              <h3 class="fw-bold">Viajes Chile</h3>
-            </div>
+   
+    <div>
+      <div>
+       <a href="https://twitter.com/" target="_blank" rel="nofollow">
+        <i data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a Twitter"
+            class="fa-brands fa-twitter fa-2x mx-1"></i>
+    </a>  
+    </div>
+    <div>
+       <a href="https://twitter.com/" target="_blank" rel="nofollow">
+        <i data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a Twitter"
+            class="fa-brands fa-twitter fa-2x mx-1"></i>
+    </a>  
+    </div>
+      
+    </div>
     
-            <div class="col-12 col-md-6 p-5">
-              <i class="fa-brands fa-github fa-2x"></i>
-              <i class="fa-brands fa-linkedin fa-2x"></i>
-              <i class="fa-brands fa-twitter fa-2x"></i>
-              <i class="fa-brands fa-facebook fa-2x"></i>
+
+    <footer class="purple text-center align-middle mt-5 ">
+        <div class="row">
+            <div class="col-12 col-md-6 p-4">
+                <h3 class="fw-bold">Viajes Chile</h3>
             </div>
-          </div>
+<div class="col-12 col-md-6 p-4">
+
+            <div>
+                <a href="https://github.com/" target="_blank" rel="nofollow">
+                    <i data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a GitHub"
+                        class="fa-brands fa-github fa-2x mx-1"></i>
+                </a>  
+                <a href="https://www.linkedin.com/" target="_blank" rel="nofollow">
+                    <i data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a Linkedin"
+                        class="fa-brands fa-linkedin fa-2x mx-1"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" rel="nofollow">
+                    <i data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a Twitter"
+                        class="fa-brands fa-twitter fa-2x mx-1"></i>
+                </a> 
+                <a href="https://es-la.facebook.com/" target="_blank" rel="nofollow">
+                    <i data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a Facebook"
+                        class="fa-brands fa-facebook fa-2x mx-1"></i>
+                </a>
+            </div>                
+        </div>
+        
+    </div>
+
+
     </footer>
+
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

@@ -1,6 +1,3 @@
-/* font-family: 'Libre Baskerville', serif;
-
-font-family: 'Lobster', cursive; */
 body {
     font-family: 'Libre Baskerville', serif;
     padding: 0;
@@ -8,14 +5,36 @@ body {
     background-color: black;
     color: white;
 }
-/* .navbar {
-   background-color: purple; 
-} */
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 90px;
+}
 
 .purple {
     background-color: purple; 
 }
 
+h3{
+    font-family: 'Lobster', cursive;
+}
 .navbar-brand {
     font-family: 'Lobster', cursive;
+}
+
+.card-img-top{
+    aspect-ratio: 5/4;
+}
+
+.fa-brands{
+color: white;
+}
+
+.nav-black {
+    background-color:purple;
+    opacity: 0.9;
+    color: white;
+  }
+
+footer a {
+    text-decoration: none;
 }
